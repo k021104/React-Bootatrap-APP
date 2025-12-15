@@ -1,0 +1,37 @@
+.carousel-indicators {
+    top: 90%;
+    left: 50%;   
+}
+
+/* normal dot */
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border: 2px solid #0D6B68;
+    border-radius: 0;
+    opacity: 1 !important;
+    margin: 0 6px;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* active dot */
+.carousel-indicators .active {
+    width: 22px;
+    height: 10px;
+    background-color: #0D6B68;
+}
+
+@media (max-width: 991px) {
+    .carousel-indicators {
+        bottom: -55px;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-indicators {
+        bottom: -65px;
+    }
+}

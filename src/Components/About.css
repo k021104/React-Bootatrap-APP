@@ -1,0 +1,32 @@
+.aboutimg {
+    display: flex;
+}
+
+.aboutimg img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.aboutchecktext {
+    color: #03201F;
+    font-weight: 400;
+}
+
+.aboutcheckicon {
+    color: #0D6B68;
+}
+
+.iconbox i{
+    border: 2px solid #0D6B68;
+    color: #0D6B68;
+    padding: 7px;
+    font-size: larger;
+    margin: 0px 5px 0px 5px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.iconbox i:hover{
+    background-color: #0D6B68;
+    color: #fff;
+}

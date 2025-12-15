@@ -1,0 +1,50 @@
+.services .darkgreenbox {
+    background-color: #0D6B68;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.services .lightgreenbox {
+    background-color: #e6f0ef;
+    transition: all 0.3s ease-in-out;
+}
+
+.services .lightgreenbox h3 {
+    color: #03201f;
+}
+
+.services .lightgreenbox p {
+    color: #555555;
+}
+
+.services .darkgreenbox:hover {
+    background-color: #e6f0ef;
+}
+
+.services .darkgreenbox:hover h3 {
+    color: #03201f;
+}
+
+.services .darkgreenbox:hover p {
+    color: #555555;
+}
+
+.services .lightgreenbox:hover {
+    background-color: #0D6B68;
+}
+
+.services .lightgreenbox:hover h3 {
+    color: #fff;
+}
+
+.services .lightgreenbox:hover p {
+    color: #fff;
+}
+
+.services .darkgreenbox img:hover {
+    cursor: pointer;
+}
+
+.services .lightgreenbox img:hover {
+    cursor: pointer;
+}

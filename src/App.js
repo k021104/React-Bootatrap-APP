@@ -1,25 +1,33 @@
 import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './Components/Header';
+import Introduction from './Components/Introduction';
+import { About } from './Components/About';
+import { Whypeoplechooseus } from './Components/Whypeoplechooseus';
+import { Ourlatestprojects } from './Components/Ourlatestprojects';
+import { Services } from './Components/Services';
+import { Designers } from './Components/Designers';
+import { Testimonial } from './Components/Testimonial';
+import { Newsletter } from './Components/Newsletter';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <Introduction />
+      <About />
+      <Whypeoplechooseus />
+      <Ourlatestprojects />
+      <Services />
+      <Designers />
+      <Testimonial />
+      <Newsletter />
+      <Footer />
+    </>
   );
 }
 
 export default App;
+
+// https://themewagon.github.io/iStudio/

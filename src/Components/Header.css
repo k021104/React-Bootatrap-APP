@@ -1,0 +1,21 @@
+.nav-link {
+    color: #03201F;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #0D6B68;
+}
+
+.nav-link.active {
+    color: #0D6B68 !important;
+}
+
+.navbar-transparent {
+    background: transparent !important;
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+}
